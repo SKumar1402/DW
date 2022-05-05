@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Scenario 1 Suite">
+	<test name="Verify Save journey with all products">
+		<classes>
+		<class name="DW_Scenario1.Test_SaveJourney_AllProducts"></class>
+		<class name="DW_Scenario1.Test_Convert_Into_TwoStep_Journey"></class>
+		<class name="DW_Scenario1.Test_NoIFP"></class>
+		</classes>
+	</test>
+
+</suite>
